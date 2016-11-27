@@ -231,9 +231,19 @@ body {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { /* website name */
     padding-top: 5px;
-    font-size: 6vw;
+    font-size: 5vw;
+  }
+  .navbar-brand p { /* Solution at your doorstep */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .5em;
+  margin-top: 15px;
+}
+  #header-right{
+    font-size: .6em;
+
   }
   /* End Header */
   
